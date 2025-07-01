@@ -1,0 +1,66 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #bfbfbf;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a,
+.login-link a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #003333;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('room.jpg'); /* Use your uploaded image file name here */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    color: #0f4c81;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #2a6da5;
+    font-weight: 500;
+}
+
+/* Footer */
+.footer {
+    background-color: #bfbfbf;
+    text-align: center;
+    padding: 15px;
+    color: #003333;
+    font-size: 0.9rem;
+}
