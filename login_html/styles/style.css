@@ -1,0 +1,20 @@
+body{
+    background-image: url(../images/img2.png);
+    background-size: cover;
+
+}
+
+.login{
+    height: 350px;
+    width: 250px;
+    padding: 30px;
+    margin: 120px auto;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); */
+     background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);  
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+
